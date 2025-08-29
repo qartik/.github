@@ -24,7 +24,6 @@ while keeping classical data management simple with stack allocation.
 - Extend QIR to:
   - Represent dynamic qubit allocation within the IR.
   - Support passing qubits and qubit arrays as function arguments.
-  - Allow functions to return qubits.
   - Support iteration over qubit arrays within the IR.
   - Enable returning arrays of measurement results.
   - Maintain backward compatibility with existing QIR ecosystem tooling.
@@ -40,7 +39,7 @@ while keeping classical data management simple with stack allocation.
 
 - An extension to the QIR specification supporting:
   - Dynamic qubit allocation.
-  - Passing and returning qubits.
+  - Passing qubits to functions.
   - Iteration over qubit arrays.
   - Returning arrays of measurement results.
 - Example QIR code snippets that utilize new calling and return conventions,
