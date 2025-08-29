@@ -1,10 +1,11 @@
 # Workstream: Dynamic Qubit Allocation and Arrays
 
-This workstream aims to add support for dynamic qubit allocation, qubit arrays
-and measurement result arrays to QIR. Relatedly, the workstream will determine
-the semantics for passing of qubits and qubit arrays as function arguments,
-array iteration and indexing, and efficient return of measurement results, all
-while keeping classical data management simple with stack allocation.
+This workstream aims to add support for dynamic qubit allocation, fixed-size
+qubit arrays and measurement result arrays to QIR. Relatedly, the workstream
+will determine the semantics for passing of qubits and qubit arrays as function
+arguments, array iteration and indexing, and efficient return of measurement
+results, all while keeping classical data management simple with stack
+allocation.
 
 ## Motivation & Benefits
 
@@ -22,7 +23,8 @@ while keeping classical data management simple with stack allocation.
 ## Requirements
 
 - Extend QIR to:
-  - Represent dynamic qubit allocation within the IR.
+  - Represent dynamic allocation of individual qubits within the IR.
+  - Support declarations of fixed-size qubit and measurement arrays.
   - Support passing qubits and qubit arrays as function arguments.
   - Support iteration over qubit arrays within the IR.
   - Enable returning arrays of measurement results.
@@ -38,7 +40,8 @@ while keeping classical data management simple with stack allocation.
 ## Deliverables & Expected Outcome
 
 - An extension to the QIR specification supporting:
-  - Dynamic qubit allocation.
+  - Dynamic allocation of individual qubits.
+  - Declaration of fixed-size qubit/measurement arrays.
   - Passing qubits to functions.
   - Iteration over qubit arrays.
   - Returning arrays of measurement results.
