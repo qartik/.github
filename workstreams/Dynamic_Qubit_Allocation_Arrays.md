@@ -67,20 +67,20 @@ allocation.
 ## Working Group & Getting Involved
 
 Members: TBD
-Chair: TBD
 
-If you would like to contribute to the workstream, please contact \<insert
-contact\>.
+Chair: Kartik Singhal
+
+If you would like to contribute to the workstream, please contact [@qartik](https://github.com/qartik).
 
 ## Schedule
 
-- Launch date: TBD
-- Estimated end date: TBD
-- Meeting schedule and/or channel(s) of communication: TBD
+- Launch date: October, 2025
+- Estimated end date: March, 2026
+- Meeting schedule and/or channel(s) of communication: Monthly
 
 ## Status & Discussions
 
-The work and status are tracked in the form of a GitHub issue \<insert link\>.
+The work and status are tracked in the form of a [GitHub issue](https://github.com/qir-alliance/qir-spec/issues/58) in the QIR Spec.
 We encourage comments, inputs, and discussions on that issue.
 
 The GitHub issue is labeled as `Approved` after approval by the steering
