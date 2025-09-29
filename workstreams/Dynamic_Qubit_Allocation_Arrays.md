@@ -80,8 +80,9 @@ If you would like to contribute to the workstream, please contact [@qartik](http
 
 ## Status & Discussions
 
-The work and status are tracked in the form of a [GitHub issue](https://github.com/qir-alliance/qir-spec/issues/58) in the QIR Spec.
-We encourage comments, inputs, and discussions on that issue.
+The work and status are tracked in the form of a
+[GitHub issue](https://github.com/qir-alliance/qir-spec/issues/58)
+in the QIR Spec. We encourage comments, inputs, and discussions on that issue.
 
 The GitHub issue is labeled as `Approved` after approval by the steering
 committee.
