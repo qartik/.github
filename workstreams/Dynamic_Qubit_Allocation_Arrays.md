@@ -66,7 +66,7 @@ allocation.
 
 ## Working Group & Getting Involved
 
-Members: TBD
+Members: Alex Chernoguzov, Ian Davis, Kartik Singhal,  Stefan Wernli, ...
 
 Chair: Kartik Singhal
 
@@ -76,7 +76,7 @@ If you would like to contribute to the workstream, please contact [@qartik](http
 
 - Launch date: October, 2025
 - Estimated end date: March, 2026
-- Meeting schedule and/or channel(s) of communication: Monthly
+- Meeting schedule and/or channel(s) of communication: every other week
 
 ## Status & Discussions
 
