@@ -66,7 +66,8 @@ allocation.
 
 ## Working Group & Getting Involved
 
-Members: Adam Geller, Alex Chernoguzov, Bettina Heim, Ian Davis, Kartik Singhal, Luca Mondada, Stefan Wernli, Thomas Alexander
+Members: Adam Geller, Alex Chernoguzov, Bettina Heim, Ian Davis, Kartik Singhal,
+Luca Mondada, Stefan Wernli, Thomas Alexander
 
 Chair: Kartik Singhal
 
