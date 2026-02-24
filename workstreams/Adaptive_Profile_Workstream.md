@@ -60,7 +60,7 @@ computations with certain data types and non-trivial control flow structures. It
 will limit expressiveness to guarantee that the program always terminates (no
 unbounded loops or recursions). This specification will replace what is
 currently drafted as [Profile
-B](https://github.com/qir-alliance/qir-spec/blob/main/specification/v0.1/7_Profiles.md#profile-a-basic-quantum-functionality)
+B](https://github.com/qir-alliance/qir-spec/blob/1.0/specification/legacy/7_Profiles.md#profile-a-basic-quantum-functionality)
 on the [specification repository](https://github.com/qir-alliance/qir-spec).
 
 Like the Base Profile, the Adaptive Profile should not rely on any particular
@@ -70,7 +70,7 @@ instruction set. The profile and the quantum instruction set (QIS) selection
 together determine how the program IR should be represented.
 
 A similar specification for the Base Profile can be found
-[here](https://github.com/qir-alliance/qir-spec/blob/main/specification/under_development/profiles/Base_Profile.md).
+[here](https://github.com/qir-alliance/qir-spec/blob/1.0/specification/profiles/Base_Profile.md).
 The specification of the Adaptive Profile should follow a similar outline for
 the sake of consistency and comprehensiveness of the specification.
 
@@ -82,13 +82,13 @@ the Adaptive Profile:
 - Composite data types: <br/>
   The use of composite data types such as [structure
   types](https://llvm.org/doxygen/group__LLVMCCoreTypeStruct.html) including
-  [tuples](https://github.com/qir-alliance/qir-spec/blob/main/specification/v0.1/1_Data_Types.md#tuples-and-user-defined-types),
+  [tuples](https://github.com/qir-alliance/qir-spec/blob/1.0/specification/legacy/1_Data_Types.md#tuples-and-user-defined-types),
   and [sequential
   types](https://llvm.org/doxygen/group__LLVMCCoreTypeSequential.html) including
-  [arrays](https://github.com/qir-alliance/qir-spec/blob/main/specification/v0.1/1_Data_Types.md#arrays)
+  [arrays](https://github.com/qir-alliance/qir-spec/blob/1.0/specification/legacy/1_Data_Types.md#arrays)
   is not supported within an Adaptive Profile. This also precludes the use of
   such data structures for [callable
-  values](https://github.com/qir-alliance/qir-spec/blob/main/specification/v0.1/2_Callables.md);
+  values](https://github.com/qir-alliance/qir-spec/blob/1.0/specification/legacy/2_Callables.md);
   i.e., the usage of subroutines as first class values is not supported within
   the Adaptive Profile, and the use of [function
   types](https://llvm.org/doxygen/group__LLVMCCoreTypeFunction.html) is limited

@@ -49,7 +49,7 @@ the requirements outlined [above](#requirements). The intent is for the Base
 Profile to permit expressing quantum programs that contain no control flow or
 classical computations during execution. This specification will replace what is
 currently drafted as [Profile
-A](https://github.com/qir-alliance/qir-spec/blob/main/specification/v0.1/7_Profiles.md#profile-a-basic-quantum-functionality)
+A](https://github.com/qir-alliance/qir-spec/blob/1.0/specification/legacy/7_Profiles.md#profile-a-basic-quantum-functionality)
 on the [specification repository](https://github.com/qir-alliance/qir-spec).
 
 In addition to the Base Profile itself, one or more quantum instruction set(s)
@@ -67,7 +67,7 @@ specification that contains guidance for defining and documenting addition
 quantum instruction sets going forward.
 
 A template for a specification definition can be found
-[here](https://github.com/CommunitySpecification/1.0/blob/master/7._CS_Template.md).
+[here](https://github.com/CommunitySpecification/1.0/blob/main/7._CS_Template.md).
 This may serve as inspiration but it is not required to follow the template
 precisely.
 
@@ -96,13 +96,13 @@ Profile:
 - Composite data types: <br/>
   The use of composite data types such as [structure
   types](https://llvm.org/doxygen/group__LLVMCCoreTypeStruct.html) including
-  [tuples](https://github.com/qir-alliance/qir-spec/blob/main/specification/v0.1/1_Data_Types.md#tuples-and-user-defined-types),
+  [tuples](https://github.com/qir-alliance/qir-spec/blob/1.0/specification/legacy/1_Data_Types.md#tuples-and-user-defined-types),
   and [sequential
   types](https://llvm.org/doxygen/group__LLVMCCoreTypeSequential.html) including
-  [arrays](https://github.com/qir-alliance/qir-spec/blob/main/specification/v0.1/1_Data_Types.md#arrays)
+  [arrays](https://github.com/qir-alliance/qir-spec/blob/1.0/specification/legacy/1_Data_Types.md#arrays)
   is not supported within a Base Profile compliant program. This also precludes
   the use of such data structures for [callable
-  values](https://github.com/qir-alliance/qir-spec/blob/main/specification/v0.1/2_Callables.md);
+  values](https://github.com/qir-alliance/qir-spec/blob/1.0/specification/legacy/2_Callables.md);
   i.e., the usage of subroutines as first class values is not supported within
   the Base Profile, and the use of [function
   types](https://llvm.org/doxygen/group__LLVMCCoreTypeFunction.html) is limited
