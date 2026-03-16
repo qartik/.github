@@ -46,4 +46,6 @@ jobs:
         # positives with terminology in quantum computing.
         strict: false
         incremental_files_only: true
-        config: 'utils/spelling_allowlist.json'
+        # To allowlist project-specific terms in a consuming repo, add a valid
+        # CSpell config file such as cspell.json and uncomment:
+        # config: 'cspell.json'
