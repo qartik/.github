@@ -34,6 +34,7 @@ jobs:
       # cspell:words gaurav
       uses: gaurav-nelson/github-action-markdown-link-check@v1
       with:
+        config-file: '.github/markdown-link-check-config.json'
         use-verbose-mode: 'yes'
       if: ${{ success() || failure() }}
     - name: "Check spelling in changed files"

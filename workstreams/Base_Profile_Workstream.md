@@ -67,7 +67,6 @@ specification that contains guidance for defining and documenting addition
 quantum instruction sets going forward.
 
 A template for a specification definition can be found
-<!-- markdown-link-check-disable-next-line -->
 [here](https://github.com/CommunitySpecification/1.0/blob/main/7._CS_Template.md).
 This may serve as inspiration but it is not required to follow the template
 precisely.
@@ -100,7 +99,6 @@ Profile:
   [tuples](https://github.com/qir-alliance/qir-spec/blob/1.0/specification/legacy/1_Data_Types.md#tuples-and-user-defined-types),
   and [sequential
   types](https://llvm.org/doxygen/group__LLVMCCoreTypeSequential.html) including
-  <!-- markdown-link-check-disable-next-line -->
   [arrays](https://github.com/qir-alliance/qir-spec/blob/1.0/specification/legacy/1_Data_Types.md#arrays)
   is not supported within a Base Profile compliant program. This also precludes
   the use of such data structures for [callable

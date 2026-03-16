@@ -85,7 +85,6 @@ the Adaptive Profile:
   [tuples](https://github.com/qir-alliance/qir-spec/blob/1.0/specification/legacy/1_Data_Types.md#tuples-and-user-defined-types),
   and [sequential
   types](https://llvm.org/doxygen/group__LLVMCCoreTypeSequential.html) including
-  <!-- markdown-link-check-disable-next-line -->
   [arrays](https://github.com/qir-alliance/qir-spec/blob/1.0/specification/legacy/1_Data_Types.md#arrays)
   is not supported within an Adaptive Profile. This also precludes the use of
   such data structures for [callable
