@@ -37,8 +37,8 @@ Additionally, a set of examples using new capabilities shall be constructed and 
 
 ## Working Group & Getting Involved
 
-Chair: Proposed Max Rüsch (Quantinuum)
-Members: TBD\
+Chair: Proposed Kartik Singhal (Quantinuum)\
+Members: TBD
 
 If you would like to contribute to the workstream, please contact the chair.
 
